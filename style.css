@@ -1,0 +1,40 @@
+html {
+    font-size: 50px;
+}
+
+body {
+    margin-top: 50px;
+    font: 1.6rem/2rem sans-serif;
+    display: flex;
+    padding-top: 300px;
+}
+
+div {
+    margin: auto;
+    position: relative;
+    padding: 64px 57px;
+    background-color: burlywood;
+}
+
+div:before {
+    content: '';
+    position: absolute;
+    width: 161%;
+    height: 97%;
+    top: 0;
+    left: -67px;
+    border-top: 7px solid #bdbdbd;
+    border-bottom: 7px solid #bdbdbd;
+}
+
+div:after {
+    content: '';
+    position: absolute;
+    width: 157%;
+    height: 119%;
+    top: -20px;
+    right: -80px;
+    transform: rotate( 90deg);
+    border-top: 7px solid #bdbdbd;
+    border-bottom: 7px solid #bdbdbd;
+}
